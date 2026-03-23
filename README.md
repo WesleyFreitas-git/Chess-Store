@@ -3,3 +3,4 @@
 **Nome:** Chess Store  
 **Autor:** Wesley Freitas  
 **Disciplina:** Programação web  
+**Ferramentas utilizadas:** HTML5 e CSS3
