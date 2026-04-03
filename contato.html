@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    
+<link rel="stylesheet" href="style.css">
+
 <head>
     <meta charset="UTF-8">
     <title>Suporte</title>
-    <h3>Envie-nos o seu problema e tentaremos resolver o mais rápido possível!</h3>
+    <h3 class="titulo">Envie-nos o seu problema e tentaremos resolver o mais rápido possível!</h3>
 
 </head>
 <body>
-    <h3>Contate-nos pelo site:</h3>
+    <h4 class="titulo">Contate-nos pelo site:</h4>
     
-    <form action="index.html">
+    <form action="index.html" id = 'formulario'>
 
         <label>Nome:</label><br>
         <input type="text" name="nome"><br><br>
@@ -24,10 +25,12 @@
         <button type="submit">Enviar</button>
 
     </form>
-    <br>
-    <h4>Contate-nos também diretamente:</h4>
-    <p>Email: chesstore@gmail.com</p>
-    <p>WhatsApp: +55 21 12345-6789</p>
+    <br><br>
 
+    <h4 id="txt_contatos">Contate-nos também diretamente:</h4>
+    <div class="contatos">
+        <p>Email: chesstore@gmail.com</p>
+        <p>WhatsApp: +55 21 12345-6789</p>
+    </div>
 </body>
 </html>
